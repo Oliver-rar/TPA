@@ -10,11 +10,11 @@ Aluno* buscarCPF(const char* cpf);
 Aluno* bucarMatricula(const char* matricula);
 void removerAluno(Aluno* alvo);
 
-//Necessário: Ordem alfabética na inserção, buscar por CPF, buscar por Matrícula, opção pra remover pós busca. Impedir CPF repetido e mostrar quantos repetidos tem.
+//Necessário: Ordem alfabética na inserção, buscar por CPF, buscar por Matrícula, opção pra remover pós busca. Impedir CPF repetido e mostrar quantos repetidos tem. 
 
 
 
-
+ 
 //Exemplo do arquivo CSV que será lido
 //Matricula,CPF,Nome,Nota,Idade,Curso,Cidade
 //A0000000,915.216.859-08,Wallace Sampaio,20.35,23,Direito,Rio de Janeiro

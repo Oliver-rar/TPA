@@ -10,7 +10,8 @@
                 "-o",
                 "${workspaceFolder}/${fileBasenameNoExtension}.exe",
                 "&&",
-                "${workspaceFolder}/${fileBasenameNoExtension}.exe"
+                "${workspaceFolder}/${fileBasenameNoExtension}.exe",
+                "-O2"
             ],
             "group": {
                 "kind": "build",
